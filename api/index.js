@@ -17,7 +17,7 @@ app.get('/api', (req, res) => {
 
     // Get the current UTC time with a +/-2 minute window
     const now = new Date();
-    utc_time = datetime.datetime.now(pytz.utc).strftime("%Y-%m-%dT%H:%M:%SZ");
+    const utcTime = now.toISOString().replace(/\.\d{3}Z$/, 'Z');
 
     // Define your response JSON
     const response = {
