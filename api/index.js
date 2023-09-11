@@ -17,7 +17,7 @@ app.get('/api', (req, res) => {
 
     // Get the current UTC time with a +/-2 minute window
     const now = new Date();
-    const utcTime = new Date().toUTCString();
+    const utcTime = now.toISOString();
 
     // Define your response JSON
     const response = {
