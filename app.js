@@ -25,8 +25,8 @@ app.get('/api', (req, res) => {
         current_day: currentDay,
         utc_time: utcTime,
         track: track,
-        github_file_url: 'https://github.com/username/repo/blob/main/file_name.ext', // Update with your GitHub details
-        github_repo_url: 'https://github.com/username/repo', // Update with your GitHub details
+        github_file_url: 'https://github.com/guru4rmzion/task1hgng/blob/main/app.js',
+       github_repo_url: 'https://github.com/guru4rmzion/task1hgng.git',git  // Update with your GitHub details
         status_code: 200,
     };
 
