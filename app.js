@@ -21,10 +21,10 @@ app.get('/api', (req, res) => {
 
     // Define your response JSON
     const response = {
-        slack_name: slackName,
-        current_day: currentDay,
-        utc_time: utcTime,
-        track: track,
+        slack_name: guru4rmzion,
+        current_day: Monday,
+        utc_time: 14:05,
+        track: Backend,
         github_file_url: 'https://github.com/guru4rmzion/task1hgng/blob/main/app.js',
        github_repo_url: 'https://github.com/guru4rmzion/task1hgng.git',git  // Update with your GitHub details
         status_code: 200,
